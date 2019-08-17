@@ -17,4 +17,9 @@ apt-get install -y docker-ce docker-ce-cli containerd.io
 # confirm docker is installed or not
 docker run hello-world
 
+if [ $1 != "" ]
+then
+  gpasswd -a $1 docker
+fi
+
 

@@ -16,5 +16,3 @@ systemctl restart docker.service
 # confirm nvidia runtime is installed or not
 docker run -it --rm --gpus all ubuntu nvidia-smi
 
-gpasswd -a ${USER} docker
-
