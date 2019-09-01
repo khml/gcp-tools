@@ -1,5 +1,7 @@
 #!/bin/bash -x
 
+pip3 install pipenv
+
 git clone git://github.com/yyuu/pyenv.git ~/.pyenv
 echo '# >> pyenv setting >>===============' >> ~/.bashrc
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
