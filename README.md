@@ -5,7 +5,7 @@ Scripts for install utilities, gsutil, docker, Python tools, and so on.
 
 ## gsutil
 ### Scripts
-- gsutil.sh
+- gsutil-installer.sh
 
 ## Nvidia driver
 ### Scripts
