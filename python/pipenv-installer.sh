@@ -2,6 +2,6 @@
 
 pip3 install pipenv
 
-usage="`pipenv -h`"
-echo ${usage}
+usage="$(pipenv -h)"
+echo "${usage}"
 
